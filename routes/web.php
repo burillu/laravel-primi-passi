@@ -15,5 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $message = 'Hello Laravel!';
-    return view('home', compact('message'));
+    $image = 'https://www.dvd.it/79761-large_default/moneyball-l-arte-di-vincere.jpg';
+    $title = 'L\'arte del vincere';
+    $content = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus molestiae distinctio quod commodi ipsa totam eos corrupti atque ex. Facilis.';
+    $custom = 'very good';
+    return view('home', compact('image', 'title', 'content', 'custom'));
 });
