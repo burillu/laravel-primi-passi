@@ -20,4 +20,13 @@ Route::get('/', function () {
     $content = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus molestiae distinctio quod commodi ipsa totam eos corrupti atque ex. Facilis.';
     $custom = 'very good';
     return view('home', compact('image', 'title', 'content', 'custom'));
-});
+})->name('home');
+Route::get('/books', function () {
+    $message = 'Hello books';
+    $image = 'https://m.media-amazon.com/images/I/61Dx6xmd6oL._SY425_.jpg';
+    $title = 'Il fu Mattia Pascal';
+    $content = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus molestiae distinctio quod commodi ipsa totam eos corrupti atque ex. Facilis.';
+    $custom = 'very good';
+    return view('books', compact('image', 'title', 'content', 'custom'));
+})->name('books');
+

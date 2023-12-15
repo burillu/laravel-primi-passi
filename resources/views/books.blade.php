@@ -19,7 +19,6 @@
 
         img {
             display: block;
-            width: 100%;
         }
 
         ul {
@@ -74,7 +73,7 @@
 
     </header>
     <div class="container">
-        <h1> Il film di oggi: </h1>
+        <h1> Il libro di oggi: </h1>
         <div class="d-flex">
             <div class="col-12 col-md-4 col-lg-3 ">
                 <div class="card">
@@ -98,9 +97,8 @@
                 </div>
             </div>
         </div>
-
-
     </div>
+
 
 </body>
 

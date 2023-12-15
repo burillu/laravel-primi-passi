@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    height: 80px;
+    background-color: white;
+}
+
+body {
+    background-image: linear-gradient(to right top, #051937, #00426b, #006e81, #009868, #5abc26);
+}
+
+.d-flex {
+    display: flex;
+
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.gap-3 {
+    gap: 3em;
+}
+
+.bg-white {
+    background-color: rgba(255, 255, 255, 0.651);
+}
+
+.col-12 {
+    width: 459px;
+}
